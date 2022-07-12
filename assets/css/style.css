@@ -237,8 +237,66 @@ html{
       
  }
 
+ /* Places-list */
+ .places-list{
+    margin:32px -8px 0; 
+    padding: 32px;
+ }
+ .place-item{
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+}
+ .places-img{
+    width: 100%;
+    display: block;
+    
+ }
+
+ .places-img:hover{
+    opacity: 0.6;
+ }
+ .place-body{
+    padding: 16px;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+ }
+ .place-heading{
+    margin: 15px 0;
+    font-weight: 500;
+
+ }
+ .place-time{
+    opacity: 0.6;
+ }
+ .place-desc{
+    margin: 20px 0;
+ }
+ .place-buy-btn{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+ }
+
+.place-buy-btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
 /* Footer section#footer{
     
  }
+
+Modal
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 
